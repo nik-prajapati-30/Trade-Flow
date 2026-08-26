@@ -16,9 +16,10 @@ const Menu = () => {
   const activeMenuClass = "menu Selected";
 
   return (
+    
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }} />
-      <div className="menus">
+          <i className="fa-solid fa-arrow-trend-up"></i>
+      <div className="menus">  
         <ul>
           <li>
             <Link style={{textDecoration: "none"}} to="/"  onClick={()=>handleMenuClick(0)}> 

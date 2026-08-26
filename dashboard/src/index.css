@@ -259,6 +259,10 @@ code {
   justify-content: space-between;
 }
 
+.menu-container .fa-arrow-trend-up {
+  font-size: 35px;  
+}
+
 .logo {
   width: 30px;
   height: 20px;
