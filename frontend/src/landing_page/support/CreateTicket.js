@@ -1,201 +1,142 @@
 import React from "react";
 
 function CreateTicket() {
+  const linkStyle = {
+    textDecoration: "none",
+    lineHeight: "2.5",
+  };
+
   return (
     <div className="container">
       <div className="row p-5 mt-5 mb-5">
         <h1 className="fs-2">To create a ticket, select a relevant topic</h1>
+
+        {/* Account Opening */}
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+          <h4>
+            <i className="fa fa-plus-circle" aria-hidden="true"></i>{" "}
+            Account Opening
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Online Account Opening
-          </a>
+
+          <a href="#" style={linkStyle}>Online Account Opening</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Offline Account Opening
-          </a>
+          <a href="#" style={linkStyle}>Account Verification</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Company, Partnership and HUF Account
-          </a>
+          <a href="#" style={linkStyle}>Account Types</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Opening
-          </a>
+          <a href="#" style={linkStyle}>Account Opening Process</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            NRI Account Opening
-          </a>
+          <a href="#" style={linkStyle}>NRI Account Information</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Charges at Zerodha
-          </a>
+          <a href="#" style={linkStyle}>Trade-Flow Charges</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Zerodha IDFC FIRST Bank 3-in-1 Account
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Getting Started
-          </a>
+          <a href="#" style={linkStyle}>Getting Started</a>
           <br />
         </div>
 
+        {/* Your Account */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-user" aria-hidden="true"></i>{" "}
+            Your Trade-Flow Account
+          </h4>
 
-        <div className="col-4 p-5 mt-2 mb-2">
-          <h4 className="">
-            <i class="fa fa-user" aria-hidden="true"></i> Your Zerodha Account
-          </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           Login Credentials
-          </a>
+          <a href="#" style={linkStyle}>Login Credentials</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Account modification and  segment Addition
-          </a>
+          <a href="#" style={linkStyle}>Account Modification</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           DP ID  and bank details
-          </a>
+          <a href="#" style={linkStyle}>Bank Details</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           Your Profile
-          </a>
+          <a href="#" style={linkStyle}>Your Profile</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-          Transfer and conversion of shares
-          </a>
-          <br />
-          
-        </div>
-        <div className="col-4 p-5 mt-2 mb-2">
-          <h4 className="">
-            <i class="fa-solid fa-user"></i> Account 
-          </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           Margin/leverage , product 
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Kite web and Mobile
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Trading FAQs
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Corporate Actions
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Sentinel
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Kite API
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            PI and other platforr
-          </a>
-          <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Stockreports
-          </a>
+          <a href="#" style={linkStyle}>Transfer of Shares</a>
           <br />
         </div>
+
+        {/* Trading */}
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4 className="">
-            <i class="fa fa-credit-card"></i>Funds
+          <h4>
+            <i className="fa fa-user" aria-hidden="true"></i>{" "}
+            Trading
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Adding Funds
-          </a>
+
+          <a href="#" style={linkStyle}>Margin & Leverage</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Fund withdrowal
-          </a>
+          <a href="#" style={linkStyle}>Trade-Flow Web & Mobile</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            eMandates
-          </a>
+          <a href="#" style={linkStyle}>Trading FAQs</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Adding Bank account
-          </a>
+          <a href="#" style={linkStyle}>Corporate Actions</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            NRI Account Opening
-          </a>
+          <a href="#" style={linkStyle}>Market Data</a>
           <br />
-        
+          <a href="#" style={linkStyle}>Trade-Flow API</a>
+          <br />
+          <a href="#" style={linkStyle}>Trading Platforms</a>
+          <br />
+          <a href="#" style={linkStyle}>Market Reports</a>
+          <br />
         </div>
+
+        {/* Funds */}
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4 className="">
-            <i class="fa fa-circle-o-notch" aria-hidden="true"></i> Console
+          <h4>
+            <i className="fa fa-credit-card" aria-hidden="true"></i>{" "}
+            Funds
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           Reports
-          </a>
+
+          <a href="#" style={linkStyle}>Adding Funds</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Ledger
-          </a>
+          <a href="#" style={linkStyle}>Fund Withdrawal</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           Portfolio
-          </a>
+          <a href="#" style={linkStyle}>Payment Methods</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            60 Day Challenge
-          </a>
+          <a href="#" style={linkStyle}>Adding Bank Account</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            IPO
-          </a>
+          <a href="#" style={linkStyle}>Transaction History</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Referesl program
-          </a>
-          <br />
-         
         </div>
+
+        {/* Portfolio */}
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4 className="">
-            <i class="fa fa-circle-thin" aria-hidden="true"></i> Coin
+          <h4>
+            <i className="fa fa-circle-o-notch" aria-hidden="true"></i>{" "}
+            Portfolio
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Understanding Mutual Funds
-          </a>
+
+          <a href="#" style={linkStyle}>Reports</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           About Coin
-          </a>
+          <a href="#" style={linkStyle}>Ledger</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Buy and sell coin 
-          </a>
+          <a href="#" style={linkStyle}>Holdings</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Staring an SIP 
-          </a>
+          <a href="#" style={linkStyle}>Positions</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Manageing you portfolio
-          </a>
+          <a href="#" style={linkStyle}>IPO</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-            Coin App
-          </a>
+          <a href="#" style={linkStyle}>Portfolio Analytics</a>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
-           Moving to coin
-          </a>
+        </div>
+
+        {/* Investments */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-circle-thin" aria-hidden="true"></i>{" "}
+            Investments
+          </h4>
+
+          <a href="#" style={linkStyle}>Understanding Mutual Funds</a>
           <br />
-         
+          <a href="#" style={linkStyle}>Investment Basics</a>
+          <br />
+          <a href="#" style={linkStyle}>Buying & Selling Investments</a>
+          <br />
+          <a href="#" style={linkStyle}>Starting an SIP</a>
+          <br />
+          <a href="#" style={linkStyle}>Managing Your Portfolio</a>
+          <br />
+          <a href="#" style={linkStyle}>Investment Tools</a>
+          <br />
         </div>
       </div>
     </div>

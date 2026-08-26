@@ -5,8 +5,9 @@ function Footer() {
         <div className='container border-top mt-5 '>
             <div className='row mt-5'>
             <div className='col'>
-                 <img src="media/images/logo.svg" alt="logo" style={{width:"50%"}}></img>
-                 <p className='mt-3'>&copy;2010-2026,Not Zerodha Broking Ltd:<br></br> All rights reserved.</p>
+                             <i className="fa-solid fa-arrow-trend-up"></i> <h1 style={{fontSize: "20px"}}>Trade-Flow</h1>
+
+                 <p className='mt-3'>&copy;2010-2026,Not Trade-Flow Broking Ltd:<br></br> All rights reserved.</p>
                 
            <i class="fa fa-twitter " aria-hidden="true">&nbsp;&nbsp;&nbsp;&nbsp; </i>
             <i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -22,9 +23,9 @@ function Footer() {
                 <a className="text-muted " style={{textDecoration:"none"}}href="">Pricing</a><br></br>
                 <a className="text-muted" style={{textDecoration:"none"}}href="">Referral programme</a><br></br>
                 <a className="text-muted" style={{textDecoration:"none"}}href="">Careers</a><br></br>
-                <a className="text-muted" style={{textDecoration:"none"}}href="">Zerodha.tech</a><br></br>
+                <a className="text-muted" style={{textDecoration:"none"}}href="">Trade-Flow.tech</a><br></br>
                 <a className="text-muted" style={{textDecoration:"none"}}href="">press & media</a><br></br>
-                <a className="text-muted" style={{textDecoration:"none"}}href="">Zerodha cares (CSR)</a><br></br>
+                <a className="text-muted" style={{textDecoration:"none"}}href="">Trade-Flow cares (CSR)</a><br></br>
             </div>
             <div className='col d-flex flex-column gap-0.1'>
                 <p>support</p>
@@ -43,15 +44,15 @@ function Footer() {
             </div>
              <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
           <p>
-            Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
-            INZ000031633 CDSL: Depository services through Zerodha Securities
+            Trade-Flow Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
+            INZ000031633 CDSL: Depository services through Trade-Flow Securities
             Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-            through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
-            no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
+            through Trade-Flow Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
+            no.: INZ000038238 Registered Address: Trade-Flow Broking Ltd.,
             #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
             J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
             complaints pertaining to securities broking please write to
-            complaints@zerodha.com, for DP related to dp@zerodha.com. Please
+            complaints@TradeFlow.com, for DP related to dp@TradeFlow.com. Please
             ensure you carefully read the Risk Disclosure Document as prescribed
             by SEBI | ICF
           </p>
@@ -83,7 +84,7 @@ function Footer() {
             of allotment. In case of non allotment the funds will remain in your
             bank account. As a business we don't give stock tips, and have not
             authorized anyone to trade on behalf of others. If you find anyone
-            claiming to be part of Zerodha and offering such services, please
+            claiming to be part of Trade-Flow and offering such services, please
             create a ticket here.
           </p>
         </div>

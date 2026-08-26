@@ -1,41 +1,68 @@
-import React from 'react';
+import React from "react";
+
 function Brokerage() {
-    return (  
-        <div className='container'>
-        <div className='row p-5 mt-5 text-center border-top'>
-            <div className='col-8 p-4'>
-               <a href="" style={{textDecoration:"none"}}> <h3 className='fs-4'>Brokerage calculator</h3></a>
-                <ul style={{textAlign:"left", lineHeight:2.5 , fontSize:"13px"}} className='text-muted mt-3'>
-                     <li>
-              Call & Trade and RMS auto-squareoff:Additional charges of ₹50 +
-              GST per order.
-            </li>
-            <li>Digital contract notes will be sent via e-mail.</li>
+  return (
+    <div className="container">
+      <div className="row p-5 mt-5 text-center border-top">
+        
+        <div className="col-8 p-4">
+          <a href="#" style={{ textDecoration: "none" }}>
+            <h3 className="fs-4">Trading & Brokerage</h3>
+          </a>
+
+          <ul
+            style={{
+              textAlign: "left",
+              lineHeight: 2.5,
+              fontSize: "13px",
+            }}
+            className="text-muted mt-3"
+          >
             <li>
-              Physical copies of contract notes, if required, shall be charged
-              ₹20 per contract note. Courier charges apply.
+              Transparent pricing with no hidden charges.
             </li>
+
             <li>
-              For NRI account (non-PIS), 0.5% or ₹100 per executed order for
-              equity (whichever is lower).
+              Equity delivery and investment orders follow the applicable
+              pricing shown on the Trade-Flow platform.
             </li>
+
             <li>
-              For NRI account (PIS), 0.5% or ₹200 per executed order for equity
-              (whichever is lower).
+              Intraday and F&O orders are charged according to the applicable
+              brokerage plan.
             </li>
+
             <li>
-              If the account is in debit balance, any order placed will be
-              charged ₹40 per executed order instead of ₹20 per executed order.
+              Applicable taxes and statutory charges may be added to the
+              transaction value.
             </li>
-                </ul>
-            </div>
-            <div className='col-4 p-4'>
-               <a href="" style={{textDecoration:"none"}}> <h3 className='fs-4'>List of charges</h3></a>
-            </div>
+
+            <li>
+              Detailed order and transaction information is available through
+              your Trade-Flow account.
+            </li>
+
+            <li>
+              Visit the pricing section for the latest applicable charges and
+              fees.
+            </li>
+          </ul>
         </div>
 
+        <div className="col-4 p-4">
+          <a href="#" style={{ textDecoration: "none" }}>
+            <h3 className="fs-4">List of Charges</h3>
+          </a>
+
+          <p className="text-muted mt-3">
+            View a simple breakdown of applicable trading and investment
+            charges.
+          </p>
         </div>
-    );
+
+      </div>
+    </div>
+  );
 }
 
 export default Brokerage;

@@ -3,50 +3,61 @@ import Hero from "./Hero";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 import Universe from "./Universe";
+
 function ProductPage() {
   return (
     <>
       <Hero />
+
       <LeftSection
         imageURL="media/images/kite.png"
-        productName="Kite"
-        productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
+        productName="Trade-Flow Trading"
+        productDescription="Our fast and intuitive trading platform with streaming market data, advanced charts, a clean UI, and more. Track markets, place orders, and manage your trading experience seamlessly."
         tryDemo=""
         learnMore=""
         googlePlay=""
         appStore=""
       />
-      <RightSection  
-       imageURL="media/images/console.png"
-        productName="Console"
-        productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
+
+      <RightSection
+        imageURL="media/images/console.png"
+        productName="Portfolio"
+        productDescription="The central dashboard for your Trade-Flow account. Get a clear overview of your trades, holdings, positions, and investments with detailed insights and visualisations."
         learnMore=""
       />
+
       <LeftSection
         imageURL="media/images/coin.png"
-        productName="Coin"
-        productDescription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."
+        productName="Investments"
+        productDescription="Explore and manage your investments through a simple and intuitive interface. Track your portfolio and monitor your investment performance in one place."
         tryDemo=""
         learnMore=""
         googlePlay=""
         appStore=""
       />
-      <RightSection 
-       imageURL="media/images/kiteconnect.png"
-        productName="Kite Connect API"
-        productDescription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."
+
+      <RightSection
+        imageURL="media/images/kiteconnect.png"
+        productName="Trade-Flow API"
+        productDescription="Build powerful trading experiences with simple HTTP/JSON APIs. Connect applications with trading workflows, market data, orders, and portfolio information."
         learnMore=""
-        />
+      />
+
       <LeftSection
         imageURL="media/images/varsity.png"
-        productName="Varsity mobile"
-        productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
+        productName="Learning Center"
+        productDescription="Learn the fundamentals of the stock market through simple and easy-to-understand educational content. Explore concepts, strategies, and investing basics at your own pace."
         tryDemo=""
         learnMore=""
         googlePlay=""
         appStore=""
       />
-    <p className="text-center mt-5 fs-5">Want to know more about our technology stack? Check out the Zerodha.tech blog.</p>
+
+      <p className="text-center mt-5 fs-5">
+        Want to know more about our technology stack? Check out the Trade-Flow
+        tech blog.
+      </p>
+
       <Universe />
     </>
   );

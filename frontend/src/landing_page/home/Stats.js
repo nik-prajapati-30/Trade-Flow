@@ -1,46 +1,66 @@
 import React from "react";
+
 function Stats() {
   return (
-    <div className="container p-3">
-      <div className="row p-5">
-        <div className="col-6 p-5">
-          <h1 className="fs-2 mb-5">Trust with confidence</h1>
-          <h2 className="fs-4">Customer-first always</h2>
+    <div className="container mb-5">
+      <div className="row align-items-center py-5">
+        
+        <div className="col-6 pe-5">
+          <h1 className="fs-2 mb-4">Trust with confidence</h1>
+
+          <h2 className="fs-4 mt-4">Customer-first always</h2>
           <p className="text-muted">
-            That's why 1.3+ crore customers trust Zerodha with ₹3.5+ lakh crores
-            worth of equity investments.
+            Trade-Flow focuses on providing a simple and reliable experience
+            for traders and investors.
           </p>
-          <h2 className="fs-4">No spam or gimmicks</h2>
+
+          <h2 className="fs-4 mt-4">No spam or gimmicks</h2>
           <p className="text-muted">
-            No gimmicks, spam, "gamification", or annoying push notifications.
-            High quality apps that you use at your pace, the way you like.
+            No unnecessary distractions or annoying notifications. Use the
+            platform at your own pace, the way you prefer.
           </p>
-          <h2 className="fs-4">The Zerodha universe</h2>
+
+          <h2 className="fs-4 mt-4">The Trade-Flow universe</h2>
           <p className="text-muted">
-            Not just an app, but a whole ecosystem. Our investments in 30+
-            fintech startups offer you tailored services specific to your needs.
+            More than just a trading platform, Trade-Flow brings together
+            trading, investing, portfolio management, and market insights.
           </p>
-          <h2 className="fs-4">Do better with money</h2>
+
+          <h2 className="fs-4 mt-4">Do better with money</h2>
           <p className="text-muted">
-            With initiatives like Nudge and Kill Switch, we don't just
-            facilitate transactions, but actively help you do better with your
-            money.
+            Trade-Flow is designed to help users understand their investments
+            and make more informed financial decisions.
           </p>
         </div>
-        <div className="col-6">
-          <img src="media/images/ecosystem.png" style={{ width: "95%" }}></img>
 
-           <div className="text-center">
-            <a href="" className="mx-5" style={{ textDecoration: "none" }}>
+        <div className="col-6 ps-4">
+          <img
+            src="media/images/flow.png"
+            style={{ width: "95%" }}
+            alt="Trade-Flow platform"
+          />
+
+          <div className="text-center mt-4">
+            <a
+              href="#"
+              className="mx-3"
+              style={{ textDecoration: "none" }}
+            >
               Explore our products{" "}
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
-            <a href="" style={{ textDecoration: "none" }}>
-              Try Kite demo{" "}
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+            <a
+              href="#"
+              className="mx-3"
+              style={{ textDecoration: "none" }}
+            >
+              Explore Trade-Flow{" "}
+              <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
         </div>
+
       </div>
     </div>
   );

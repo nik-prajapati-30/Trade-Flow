@@ -5,8 +5,8 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg  bordor-bottom " style={{backgroundColor:"fff"}} >
         <div class="container p-2">
           <Link class="navbar-brand" to={"/"}>
-            <img src="media/images/logo.svg" alt="logo" style={{width:"25%"}}></img>
-          </Link>
+            <i className="fa-solid fa-arrow-trend-up"></i> <h1 style={{fontSize: "20px",paddingBottom: "10px", paddingRight: "180px", marginRight: "320px"}}>Trade-Flow</h1>
+          </Link> 
           <button
             class="navbar-toggler"
             type="button"
@@ -31,7 +31,7 @@ function Navbar() {
                   About
                 </Link>
               </li>
-              <li class="nav-item">
+              <li class="nav-item"> 
                 <Link class="nav-link active" to={"./product"}>
                   Product
                 </Link>
@@ -43,7 +43,7 @@ function Navbar() {
               </li>
               <li class="nav-item">
                 <Link class="nav-link active" to={"./support"}>
-                  Support
+                  Support 
                 </Link>
               </li>
              

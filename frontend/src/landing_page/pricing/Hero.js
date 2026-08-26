@@ -1,32 +1,61 @@
-import React from 'react';
+import React from "react";
+
 function Hero() {
-    return ( 
-        <div className='container'>
-        <div className='row p-5 text-center mt-5 border-bottom'>
-            <h1>Pricing</h1>
-            <h3 className='text-muted mt-3 fs-5'>Free  equity investments and flat ₹20 traday and F&o trades </h3>
-        </div>
-        <div className='row p-1  mt-5 text-center '>
-            <div className='col-4 p-4'>
-                <img src="media/images/pricingEquity.svg"></img>
-                <h1 className='fs-3'>Free equity delivery</h1>
-                <p className='text-muted'>All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.</p>
-            </div>
-            <div className='col-4 p-4'>
-                   <img src="media/images/intradayTrades.svg"></img>
-                <h1 className='fs-3'>Intraday and F&O trades</h1>
-                <p className='text-muted'>Flat ₹ 20 or 0.03% (whichever is lower) per executed order on intraday trades across equity, currency, and commodity trades. Flat ₹20 on all option trades.</p>
-            </div>
-            <div className='col-4 p-4'>
-                   <img src="media/images/pricingEquity.svg"></img>
-                <h1 className='fs-3'>Free direct MF</h1>
-                <p className='text-muted'>All direct mutual fund investments are absolutely free — ₹ 0 commissions & DP charges.</p>
-            </div>
+  return (
+    <div className="container">
+      <div className="row p-5 text-center mt-5 border-bottom">
+        <h1>Pricing</h1>
 
+        <h3 className="text-muted mt-3 fs-5">
+          Simple and transparent pricing for trading and investments
+        </h3>
+      </div>
+
+      <div className="row p-1 mt-5 text-center">
+        <div className="col-4 p-4">
+          <img
+            src="media/images/pricingEquity.svg"
+            alt="Equity investments"
+          />
+
+          <h1 className="fs-3">Equity Delivery</h1>
+
+          <p className="text-muted">
+            Trade-Flow keeps equity delivery pricing simple and transparent
+            with no unnecessary brokerage charges.
+          </p>
         </div>
 
+        <div className="col-4 p-4">
+          <img
+            src="media/images/intradayTrades.svg"
+            alt="Intraday trading"
+          />
+
+          <h1 className="fs-3">Intraday & F&O</h1>
+
+          <p className="text-muted">
+            Trade intraday and F&O with straightforward brokerage pricing.
+            Applicable charges and taxes are shown clearly before execution.
+          </p>
         </div>
-     );
+
+        <div className="col-4 p-4">
+          <img
+            src="media/images/pricingEquity.svg"
+            alt="Mutual funds"
+          />
+
+          <h1 className="fs-3">Mutual Funds</h1>
+
+          <p className="text-muted">
+            Explore and manage mutual fund investments through a simple and
+            transparent platform.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Hero;
