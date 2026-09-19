@@ -15,7 +15,7 @@ import Login from './landing_page/login/login';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <BrowserRouter>
- <Navbar/ >
+ <Navbar />
  <Routes>
   <Route path="/" element={<HomePage />}/>
   <Route path="/signup" element={<Signup />}/>
@@ -26,7 +26,7 @@ root.render(
   <Route path="/support" element={<SupportPage />}/>
   <Route path="*" element={<NotFound />}/>
  </Routes>
- <Footer/>
+ <Footer />
  </BrowserRouter>
 );
 

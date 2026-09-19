@@ -1,26 +1,12 @@
-// import React from 'react';
-// function Signup() {
-//     return ( 
-//         <form>
-//             {/* <input placeholder='username'>Username</input> */}
-            
-//         </form>
-//      );
-// }
-
-// export default Signup;
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 
-function Signup() {
+function Login() {
   const [form, setForm] = useState({
     username: "",
-    email: "",
     password: "",
   });
-
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -30,9 +16,10 @@ function Signup() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3002/signup", form);
-      alert("Signup successful!");
-      navigate("/login"); // redirect to login
+      await axios.post("http://localhost:5001/login", form);
+
+      // If username & password match → redirect to dashboard
+      window.location.href = "http://localhost:3002";
     } catch (err) {
       alert(err.response?.data?.message);
     }
@@ -40,19 +27,12 @@ function Signup() {
 
   return (
 //     <div>
-//       <h2>Signup Page</h2>
+//       <h2>Login Page</h2>
 
 //       <form onSubmit={handleSubmit}>
 //         <input
 //           name="username"
 //           placeholder="Username"
-//           onChange={handleChange}
-//         />
-//         <br />
-
-//         <input
-//           name="email"
-//           placeholder="Email"
 //           onChange={handleChange}
 //         />
 //         <br />
@@ -65,21 +45,18 @@ function Signup() {
 //         />
 //         <br />
 
-//         <button type="submit">Register</button>
+//         <button type="submit">Login</button>
 //       </form>
-
-//       <p>
-//         Already registered? <Link to="/login">Login</Link>
-//       </p>
 //     </div>
 //   );
 // }
+
 <div className="container-fluid bg-light" style={{ height: "100vh" }}>
       <div className="row h-100 justify-content-center align-items-center">
         <div className="col-md-4">
-          <div className="card shadow" style={{ minHeight: "400px" }}>
+          <div className="card shadow" style={{ minHeight: "300px" }}>
             <div className="card-body">
-              <h4 className="text-center mb-4">Create Account</h4>
+              <h4 className="text-center mb-4">Login</h4>
 
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
@@ -89,18 +66,6 @@ function Signup() {
                     name="username"
                     className="form-control"
                     placeholder="Enter username"
-                    onChange={handleChange}
-                    required
-                  />
-                </div>
-
-                <div className="form-group mt-3">
-                  <label>Email</label>
-                  <input
-                    type="email"
-                    name="email"
-                    className="form-control"
-                    placeholder="Enter email"
                     onChange={handleChange}
                     required
                   />
@@ -118,15 +83,16 @@ function Signup() {
                   />
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block mt-3">
-                  Sign Up
+                <button type="submit" className="btn btn-success btn-block mt-3">
+                  Login
                 </button>
               </form>
 
-              <p className="text-center mt-3 mb-0">
-                Already registered?{" "}
-                <Link to="/login">Login</Link>
-              </p>
+               <p className="text-center mt-3 mb-0">
+                              Don’t have an account?{" "}
+                              <Link to="/Signup">sign up</Link>
+                            </p>
+              
             </div>
           </div>
         </div>
@@ -136,4 +102,4 @@ function Signup() {
 }
 
 
-export default Signup;
+export default Login;

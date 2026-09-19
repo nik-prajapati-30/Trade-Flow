@@ -10,7 +10,7 @@ const { HoldingsSchema } = require('./schemas/HoldingsSchema');
 const { OrdersModel } = require("./model/OrdersModel");
 
 
-const PORT =process.env.PORT || 3002;
+const PORT =process.env.PORT || 5001;
 const uri =process.env.MONGO_URL;
 
 const app = express();
