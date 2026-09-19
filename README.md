@@ -90,7 +90,6 @@ npm run dev
 Ensure you create a `.env` file in the `backend` directory containing necessary configurations such as your MongoDB connection string and JWT secret. Example:
 ```env
 MONGO_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/tradeflow
-PORT=5001
 ```
 
 ## Contributing
