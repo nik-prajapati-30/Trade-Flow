@@ -69,27 +69,28 @@ You will need to run the three components simultaneously in separate terminal wi
 cd backend
 npm start
 ```
-*(Runs on nodemon, typically on port 5000 or 8080 depending on configuration)*
+*(Runs on nodemon, typically on port 5001 or 3002 depending on configuration)*
 
 **2. Start the Frontend Client**
 ```bash
 cd frontend
-npm start
+npm run dev
 ```
+*(Runs on Vite, configured for port 3000)*
 
 **3. Start the Dashboard**
 ```bash
 cd dashboard
-npm start
+npm run dev
 ```
+*(Runs on Vite, configured for port 3001)*
 
 ## Environment Variables
 
 Ensure you create a `.env` file in the `backend` directory containing necessary configurations such as your MongoDB connection string and JWT secret. Example:
 ```env
-MONGO_URI=mongodb://localhost:27017/tradeflow
-JWT_SECRET=your_secret_key
-PORT=5000
+MONGO_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/tradeflow
+PORT=5001
 ```
 
 ## Contributing
