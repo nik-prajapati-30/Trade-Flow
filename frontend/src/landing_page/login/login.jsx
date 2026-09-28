@@ -19,7 +19,7 @@ function Login() {
       await axios.post("http://localhost:5001/login", form);
 
       // If username & password match → redirect to dashboard
-      window.location.href = "http://localhost:3002";
+      window.location.href = "http://localhost:3001";
     } catch (err) {
       alert(err.response?.data?.message);
     }
